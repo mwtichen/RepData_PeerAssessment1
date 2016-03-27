@@ -103,7 +103,12 @@ boxplot(totalsteps)
 abline(h = mean(totalsteps))
 title('Distribution of Total Number of Steps')
 ```
-   
+ Using this method of imputation, these values do not differ from the complete
+  case analysis. With this method of imputation, it is difficult to calculate
+  any error for our estimate. Multiple Imputation (via the MICE package) is
+  one way to impute missing values and compute standard errors for our estimates.
+  It's a little bit beyond this assignment, so let's just say our estimates
+  did not change and leave it at that.
    
 ## Are there differences in activity patterns between weekdays and weekends?
 
